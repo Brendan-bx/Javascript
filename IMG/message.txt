@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="Site.css">
+<head>
+    <title>Top 3 animes</title>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div id="Fond">
+        
+    <h1>Anime top 3</h1>
+    <br>
+   
+    <ul>
+   <li>
+    <div id="TOP">
+        <br>
+
+
+
+
+        <script>
+            function toggleImage() {
+               var img1 = "IMG/TOP1.png";
+               var img2 = "IMG/oui.png";
+               img2.style.width= '50px';
+               
+               var imgElement = document.getElementById('toggleImage');
+            
+               imgElement.src = (imgElement.src === img1)? img2 : img1;
+
+            }
+            </script>
+            <img src="IMG/oui.png" id="toggleImage" onclick="toggleImage();"/>
+            
+
+
+        <br>
+    <div id="Img"> 
+        <br>
+        <p><img src="IMG/SNK.jpg" width="100%" height="100%"></p>
+        <br>
+    </div>
+    <div id="SNK"> 
+        <br>
+        <p>Shingeki No Kyojin (Attack on Titan)</p>
+
+        <br>
+    </div>
+
+
+        </div>
+    </li>
+    <li>
+        <div id="TOP">
+            <p> DE la merde </p>
+            <p> DE la merde </p>
+            <p> DE la merde </p>
+            <p> DE la merde </p>
+            <p> DE la merde </p>
+            <p> DE la merde </p>
+            <p> DE la merde </p>
+            <p> DE la merde </p>
+            <p> DE la merde </p>
+            <p> DE la merde </p>
+            <p> DE la merde </p>
+            <p> DE la merde </p>
+            <p> DE la merde </p>
+            <p> DE la merde </p>
+            <p> DE la merde </p>
+            <p> DE la merde </p>
+            <p> DE la merde </p>
+            <p> DE la merde </p>
+            <p> DE la merde </p>
+            
+            
+                </div>
+            </li>
+        <li>
+                <div id="TOP">
+                    <h3>TOP 1</h3>
+                    <p> DE la merde </p>
+                    <p> DE la merde </p>
+                    <p> DE la merde </p>
+                    <p> DE la merde </p>
+                    <p> DE la merde </p>
+                    <p> DE la merde </p>
+                    <p> DE la merde </p>
+                    <p> DE la merde </p>
+                    <p> DE la merde </p>
+                    <p> DE la merde </p>
+                    <p> DE la merde </p>
+                    <p> DE la merde </p>
+                    <p> DE la merde </p>
+                    <p> DE la merde </p>
+                    <p> DE la merde </p>
+                    <p> DE la merde </p>
+                    <p> DE la merde </p>
+                    <p> DE la merde </p>
+                    <p> DE la merde </p>
+                    
+                        </div>
+                    </li>
+
+        </ul>
+
+    </div>
+        
+
+</body>
+<script src="Site.js"></script>
+</html>
+</head>
