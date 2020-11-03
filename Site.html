@@ -1,9 +1,10 @@
 
 <!DOCTYPE html>
 <html>
+    <link rel="stylesheet" href="Site.css">
 <head>
     <title>Top 3 animes</title>
-    <link rel="stylesheet" href="Site.css">
+    
     <meta charset="utf-8">
 </head>
 <body>
@@ -17,7 +18,25 @@
    <li>
     <div id="TOP">
         <br>
-        <h3><img src="IMG/TOP1.png" width="60%" height="60%"></h3>
+
+
+
+
+        <script>
+            function toggleImage() {
+               var img1 = "IMG/TOP1.png";
+               var img2 = "IMG/oui.png";
+               img2.style.width= '50px';
+               
+               var imgElement = document.getElementById('toggleImage');
+            
+               imgElement.src = (imgElement.src === img1)? img2 : img1;
+
+            }
+            </script>
+            <img src="IMG/oui.png" id="toggleImage" onclick="toggleImage();"/>
+
+
         <br>
     <div id="Img"> 
         <br>
@@ -26,9 +45,8 @@
     </div>
     <div id="SNK"> 
         <br>
-        <p>SNK</p>
-        <p>Du texte</p>
-        <p>Du texte</p>
+        <p>Shingeki No Kyojin (Attack on Titan)</p>
+
         <br>
     </div>
 
@@ -37,8 +55,6 @@
     </li>
     <li>
         <div id="TOP">
-    
-            <h3>TOP 1</h3>
             <p> DE la merde </p>
             <p> DE la merde </p>
             <p> DE la merde </p>
@@ -91,7 +107,9 @@
         </ul>
 
     </div>
+        
 
 </body>
+<script src="Site.js"></script>
 </html>
 </head>
