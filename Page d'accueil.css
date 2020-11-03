@@ -1,0 +1,13 @@
+.colonne1 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: darkgray;
+    box-shadow: rgba(0, 0, 0, .5);
+    margin-bottom: 15px;
+    padding: 20px;
+}
+div {
+    display: block;
+}
