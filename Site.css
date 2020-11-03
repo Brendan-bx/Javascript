@@ -3,11 +3,10 @@
     width: 1000px;
     margin: auto; 
     text-align: center;
-
-
 }
+
 body{
-    background-image: url("IMG/manga.jpg");
+    background-image: url("IMG/Fond3.png");
     background-size: cover;
     background-position-x: initial;
     background-position-y: initial;
@@ -17,6 +16,7 @@ body{
     background-clip: initial;
     background-color: initial;
 }
+
 .TOP{
 
     width: 300px;
@@ -24,13 +24,16 @@ body{
     text-align: center;
     align-content: center;
     background-color:rgba(125, 125, 125, 0.75);
-
 }
+
+
+
 ul{
     display: flex;
 justify-content:center;
 justify-content: space-around;
 }
+
 li{
     list-style: none;
 }
@@ -39,7 +42,11 @@ img{
     text-align: center;
 }
 
-h1 {
-    text-shadow: 2px 2px 2px red;
-
+h1{
+    background-color: rgba(125, 125, 125, 0.75);
+    margin: auto;
+    text-align: center;
+    width: 60%;
 }
+
+
