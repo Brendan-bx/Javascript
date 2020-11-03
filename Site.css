@@ -4,7 +4,31 @@
 
     background-color: blanchedalmond;
     text-align: center;
+   
 }
 body{
     background-color: blue;
+}
+#TOP{
+    
+	width: 300px;
+	margin:0 auto;
+	text-align: center;
+	align-content: center;
+	background-color: red;
+	
+}
+ul{
+    display: flex;
+justify-content:center;
+justify-content: space-around;
+}
+li{
+    list-style: none;
+}
+#Img{
+    background-color: yellow;
+}
+img{
+    text-align: center;
 }
