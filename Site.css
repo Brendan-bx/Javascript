@@ -3,8 +3,8 @@
     width: 1000px;
     margin: auto; 
     text-align: center;
-    
-   
+
+
 }
 body{
     background-image: url("IMG/manga.jpg");
@@ -17,14 +17,14 @@ body{
     background-clip: initial;
     background-color: initial;
 }
-#TOP{
-    
-	width: 300px;
-	margin:0 auto;
-	text-align: center;
-	align-content: center;
-	background-color: red;
-	
+.TOP{
+
+    width: 300px;
+    margin:0 auto;
+    text-align: center;
+    align-content: center;
+    background-color:rgba(125, 125, 125, 0.75);
+
 }
 ul{
     display: flex;
@@ -34,19 +34,12 @@ justify-content: space-around;
 li{
     list-style: none;
 }
-#Img{
-    background-color: rgb(0, 0, 0);
-}
+
 img{
     text-align: center;
-<<<<<<< HEAD
-}
-=======
 }
 
 h1 {
     text-shadow: 2px 2px 2px red;
 
 }
-
->>>>>>> 899d013e8ec8ae2af1ddede4d533285fe90d04f8
