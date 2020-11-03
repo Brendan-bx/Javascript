@@ -16,7 +16,7 @@ body{
     background-clip: initial;
     background-color: initial;
 }
-#TOP{
+.TOP{
     
 	width: 300px;
 	margin:0 auto;
@@ -44,4 +44,7 @@ h1 {
     text-shadow: 2px 2px 2px red;
 
 }
+script {
+    width: 50%;
 
+}
