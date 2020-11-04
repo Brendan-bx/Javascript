@@ -1,7 +1,8 @@
 
 #Fond{
-    width: 1000px;
-    margin: auto; 
+    max-width:1000px;
+	width: 95%;
+    margin:0 auto; 
     text-align: center;
 }
 
@@ -15,11 +16,13 @@ body{
     background-origin: initial;
     background-clip: initial;
     background-color: initial;
+    
 }
 
 .TOP{
 
-    width: 300px;
+    max-width:300px;
+	width: 95%;
     margin:0 auto;
     text-align: center;
     align-content: center;
@@ -46,7 +49,9 @@ h1{
     background-color: rgba(125, 125, 125, 0.75);
     margin: auto;
     text-align: center;
+    max-width:500px;
     width: 60%;
+
 }
 
 .zoom1:hover{
