@@ -1,0 +1,89 @@
+#Fond{
+    
+	width: 90%;
+    margin:0 auto; 
+    text-align: center;
+    
+    
+    
+    
+   
+}
+body{
+    background-image: url("Blue_img/Fond.jpg!d");
+    background-size: cover;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-repeat:initial ;
+    background-attachment: fixed;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    
+}
+h1{
+    background-color: rgba(50, 50, 50, 0.75);
+    margin: auto;
+    text-align: center;
+    width: 30%;
+}
+#Perso{
+    background-color: rgba(50, 50, 50, 0.75);
+    margin-top:0 auto;
+    width: 30%;
+    
+}
+#Perso h2{
+    background-color:aquamarine;
+    text-shadow: 2px 2px 2px blue;
+}
+ul{
+    
+    display: flex;
+    justify-content: space-between;
+    margin:0 auto;
+
+}
+li{
+    text-align: center;
+    list-style: none;
+    margin:0 auto;
+    
+    
+
+}
+#nbrEp{
+    background-color: rgba(50, 50, 50, 0.75);
+    color: aqua;
+    text-align: center;
+    margin:  auto;
+    width: 25%;
+    
+
+    
+}
+#name{
+    
+    font-size: 20px;
+    color: aqua;
+}
+#info{
+    
+    background-color: rgba(50, 50, 50, 0.75);
+    width: 30%;
+    margin-top: 5%;
+    margin-left:70%;
+    text-align: center;
+}
+#info p{
+    color: aqua;
+}
+#info h2{
+    background-color:aquamarine;
+    text-shadow: 2px 2px 2px blue;
+}
+#info h3{
+    color: azure;
+    background-color: blue;
+    text-shadow: 2px 2px 2px aquamarine;
+}
