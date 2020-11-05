@@ -1,12 +1,7 @@
-#Fond{
-    max-width:1000px;
-	width: 95%;
-    margin:0 auto; 
-    text-align: center;
-    background-color: rgba(200, 200, 200, 0.94);
-}
+
 
 body{
+
     background-image: url("IMG/opfond.jpg");
     background-size: cover;
     background-position-x: initial;
@@ -18,22 +13,67 @@ body{
     background-color: initial;
     
 }
+#Fond{
+    
+    max-width:1000px;
+	width: 95%;
+    margin:0 auto; 
+    text-align: center;
+    background-color: rgba(236, 193, 1, 0.94);
+
+}
 
 h1{
-    background-color: rgba(125, 125, 125, 0.75);
+    
     margin: auto;
     text-align: center;
     max-width:500px;
     width: 60%;
+
 }
 
 .button{
+
     background-color: rgba(255, 140, 0, 0.7);
     margin: auto;
     text-align: center;
     max-width:500px;
-    width: 20%;
+    width: 18%;
     font-size: 150%;
+
 }
+
+h2{
+
+    color: white;
+
+}
+
+.button:hover{
+
+    transform: scale(1.03);
+
+}
+
+.image{
+   
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    max-width:1000px;
+	width: 95%;
+    margin:0 auto; 
+    text-align: center;
+    
+}
+
+.textperso{
+
+    justify-self: center;
+
+}
+
+
+
 
 
