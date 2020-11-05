@@ -22,7 +22,7 @@ body{
     
 }
 h1{
-    background-color: rgba(50, 50, 50, 0.75);
+    
     margin: auto;
     text-align: center;
     width: 30%;
@@ -31,11 +31,22 @@ h1{
     background-color: rgba(50, 50, 50, 0.75);
     margin-top:0 auto;
     width: 30%;
+    position: relative;
+    
     
 }
-#Perso h2{
-    background-color:aquamarine;
-    text-shadow: 2px 2px 2px blue;
+#Perso p {
+    
+    font-size: 20px;
+    color:aquamarine;
+    
+    margin: auto;
+   
+}
+h2{
+    
+    text-shadow: 2px 2px 2px darkcyan;
+    color:darkblue;
 }
 ul{
     
@@ -62,17 +73,13 @@ li{
 
     
 }
-#name{
-    
-    font-size: 20px;
-    color: aqua;
-}
+
 #info{
     
     background-color: rgba(50, 50, 50, 0.75);
     width: 30%;
-    margin-top: 5%;
-    margin-left:70%;
+    float: right;
+    justify-content: center;
     text-align: center;
 }
 #info p{
@@ -81,9 +88,78 @@ li{
 #info h2{
     background-color:aquamarine;
     text-shadow: 2px 2px 2px blue;
+    margin-top: auto;
 }
 #info h3{
     color: azure;
     background-color: blue;
     text-shadow: 2px 2px 2px aquamarine;
+}
+#logo{
+    display: flex;
+    justify-content: space-between;
+}
+#logo1{
+    width: 25%;
+    
+    margin-left: 10%;
+   
+    
+   
+}
+#logo2{
+    width: 28%;
+    
+    margin-right:10% ;
+    
+    
+}
+#movies{
+    background-color: rgba(50, 50, 50, 0.75);
+    width: 30%;
+    float: left;
+}
+#movies p{
+    color: aqua;
+}
+#movies h2{
+    background-color:aquamarine;
+    text-shadow: 2px 2px 2px blue;
+    margin-top: auto;
+}
+#movies h3 {
+    color: azure;
+    background-color: blue;
+    text-shadow: 2px 2px 2px aquamarine;
+}
+#resum{
+    background-color: rgba(50, 50, 50, 0.75);
+    color: aqua;
+    font-size: 20px;
+    width: 85%;
+    margin: auto;
+}
+#un{
+    background-color: rgba(50, 50, 50, 0.75);
+   
+   
+}
+.espace{
+    height: 100px;
+    
+}
+
+#zoom1, #zoom2 {
+    cursor: pointer;
+    text-align: center;
+    width: 15%;
+    position: absolute;
+    top: 50%;
+    font-size: 50px;
+}
+#zoom1{
+    left: 0;
+}
+#zoom2{
+    right: 0;
 }
