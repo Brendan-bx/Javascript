@@ -1,5 +1,7 @@
 #Personnages {
-    flex-direction: row;
+    text-align: center;
+    font-family: fantasy;
+    
 }
 
 .anime{
@@ -36,7 +38,6 @@ body{
 
 ul{
     display: flex;
-justify-content:center;
 justify-content: space-around;
 }
 
@@ -44,14 +45,15 @@ li{
     list-style: none;
 }
 .desc {
-    max-width:700px;
+    font-size: 80%;
+    max-width:450px;
 	width: 95%;
     margin:0 auto;
     text-align: center;
     align-content: flex-end;
     font-weight: bold;
     color: white;
-    background-color: rgba(240, 4, 4, 0.6);
+    background-color: rgba(20, 4, 240, 0.788);
 }
 
 .accueil {
@@ -62,4 +64,32 @@ h2 {
     text-align: center;
 }
 
+.Episodes {
+    text-align: center;
+    font-weight: bold;
 
+}
+
+.saison4 {
+    text-align: center;
+}
+
+
+h2 {
+    text-decoration: underline;
+}
+
+.zoom2:hover{
+    transform: scale(1.10);
+}
+
+.logo {
+    font-size: 80%;
+    max-width:450px;
+	width: 95%;
+    margin:0 auto;
+    text-align: center;
+    align-content: flex-end;
+
+    
+}
