@@ -1,0 +1,65 @@
+#Personnages {
+    flex-direction: row;
+}
+
+.anime{
+
+
+    max-width:700px;
+	width: 95%;
+    margin:0 auto;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+h1{
+    margin: auto;
+    text-align: center;
+    max-width:500px;
+    width: 60%;
+
+}
+
+body{
+    background-image: url("IMG/shingeki-no-kyojin.jpg");
+    background-size: cover;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-repeat:initial ;
+    background-attachment: fixed;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    
+}
+
+ul{
+    display: flex;
+justify-content:center;
+justify-content: space-around;
+}
+
+li{
+    list-style: none;
+}
+.desc {
+    max-width:700px;
+	width: 95%;
+    margin:0 auto;
+    text-align: center;
+    align-content: flex-end;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(240, 4, 4, 0.6);
+}
+
+.accueil {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+
