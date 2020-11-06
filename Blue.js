@@ -19,13 +19,6 @@ function ChangeSlide(sens) {
 
 
 
-
-
-
-
-
-
-
 function localFilename(url)	
 {
 	let x = url.lastIndexOf("Blue_img/petitRinNormal.png/Blue_img/petitRin.png");
