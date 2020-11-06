@@ -1,29 +1,7 @@
-document.getElementById("luffy").style.display = "none";
-document.getElementById("zoro").style.display = "none";
-document.getElementById("usopp").style.display = "none";
-document.getElementById("nami").style.display = "none";
-document.getElementById("sanji").style.display = "none";
-document.getElementById("chopper").style.display = "none";
-document.getElementById("robin").style.display = "none";
-document.getElementById("franky").style.display = "none";
-document.getElementById("brook").style.display = "none";
-document.getElementById("jinbe").style.display = "none";
-
-
-document.getElementById("flecheg").style.display = "none";
-document.getElementById("fleched").style.display = "none";
-document.getElementById("solo").style.display = "none";
-
-
-
 let description = document.getElementById("description");
 let synopsis = document.getElementById("synopsis");
 let personnage = document.getElementById("personnage");
 let episode = document.getElementById("episode");
-let text1elem = document.getElementById("text1");
-let text2elem = document.getElementById("text2");
-let text3elem = document.getElementById("text3");
-
 
 description.addEventListener("click", truc)
 synopsis.addEventListener("click", truc)
@@ -31,8 +9,11 @@ personnage.addEventListener("click", truc)
 episode.addEventListener("click", truc)
 
 
-text1elem.innerHTML = "<h2>One Piece</h2>  Type : Shonen <br> Genre : Aventure <br> Thèmes : Surnaturel  <h2>Manga</h2>  Auteur : Eiichirō Oda <br> Éditeur : (ja) Shūeisha (fr) Glénat <br> Prépublication : Weekly Shonen Jump <br> Sortie initiale : 22 juillet 1997 – en cours <br> Volume : 97 <h2>Anime</h2> Réalisateur : Tatsuya Nagamine (depuis 2019) <br> Studio d’animation : Toei Animation <br> 1re diffusion : 20 octobre 1999 – en cours <br> Épisodes : 948 <br><br><br>"
+let text1elem = document.getElementById("text1");
+let text2elem = document.getElementById("text2");
+let text3elem = document.getElementById("text3");
 
+text1elem.innerHTML = "<h2>One Piece</h2>  Type : Shonen <br> Genre : Aventure <br> Thèmes : Surnaturel  <h2>Manga</h2>  Auteur : Eiichirō Oda <br> Éditeur : (ja) Shūeisha (fr) Glénat <br> Prépublication : Weekly Shonen Jump <br> Sortie initiale : 22 juillet 1997 – en cours <br> Volume : 97 <h2>Anime</h2> Réalisateur : Tatsuya Nagamine (depuis 2019) <br> Studio d’animation : Toei Animation <br> 1re diffusion : 20 octobre 1999 – en cours <br> Épisodes : 948 <br><br><br>"
 
 flecheg.addEventListener("click", no)
 fleched.addEventListener("click", yes)
@@ -43,22 +24,12 @@ let slide = new Array("IMG/saga1.jpg", "IMG/saga2.jpg", "IMG/saga3.jpg", "IMG/sa
 let numero = 0;
 
 document.getElementById("slider").style.display = "none";
+document.getElementById("solo").style.display = "none";
 
 
 function truc(event) {
     if (event.target.id === "description") {
-        document.getElementById("luffy").style.display = "none";
-        document.getElementById("zoro").style.display = "none";
-        document.getElementById("usopp").style.display = "none";
-        document.getElementById("nami").style.display = "none";
-        document.getElementById("sanji").style.display = "none";
-        document.getElementById("chopper").style.display = "none";
-        document.getElementById("robin").style.display = "none";
-        document.getElementById("franky").style.display = "none";
-        document.getElementById("brook").style.display = "none";
-        document.getElementById("jinbe").style.display = "none";
-        document.getElementById("flecheg").style.display = "none";
-        document.getElementById("fleched").style.display = "none";
+        document.getElementById("image2").style.display = "none";
         document.getElementById("slider").style.display = "none";
         document.getElementById("solo").style.display = "none";
         text2elem.innerHTML = ""
@@ -66,18 +37,7 @@ function truc(event) {
     }
 
     else if (event.target.id === "synopsis") {
-        document.getElementById("luffy").style.display = "none";
-        document.getElementById("zoro").style.display = "none";
-        document.getElementById("usopp").style.display = "none";
-        document.getElementById("nami").style.display = "none";
-        document.getElementById("sanji").style.display = "none";
-        document.getElementById("chopper").style.display = "none";
-        document.getElementById("robin").style.display = "none";
-        document.getElementById("franky").style.display = "none";
-        document.getElementById("brook").style.display = "none";
-        document.getElementById("jinbe").style.display = "none";
-        document.getElementById("flecheg").style.display = "none";
-        document.getElementById("fleched").style.display = "none";
+        document.getElementById("image2").style.display = "none";
         document.getElementById("slider").style.display = "none";
         document.getElementById("solo").style.display = "none";
         text2elem.innerHTML = ""
@@ -98,6 +58,7 @@ function truc(event) {
         document.getElementById("brook").style.display = "none";
         document.getElementById("jinbe").style.display = "none";
         document.getElementById("fleched").style.display = "flex";
+        document.getElementById("image2").style.display = "flex";
         document.getElementById("slider").style.display = "none";
         document.getElementById("solo").style.display = "none";
         text2elem.innerHTML = "<h2>Monkey.D.Luffy</h2><h4>Capitaine de l'équipage</h4>"
@@ -106,56 +67,13 @@ function truc(event) {
     else if (event.target.id === "episode") {
         text1elem.innerHTML = ""
         text2elem.innerHTML = ""
-        document.getElementById("luffy").style.display = "none";
-        document.getElementById("zoro").style.display = "none";
-        document.getElementById("usopp").style.display = "none";
-        document.getElementById("nami").style.display = "none";
-        document.getElementById("sanji").style.display = "none";
-        document.getElementById("chopper").style.display = "none";
-        document.getElementById("robin").style.display = "none";
-        document.getElementById("franky").style.display = "none";
-        document.getElementById("brook").style.display = "none";
-        document.getElementById("jinbe").style.display = "none";
-        document.getElementById("flecheg").style.display = "none";
-        document.getElementById("fleched").style.display = "none";
+        document.getElementById("image2").style.display = "none";
         document.getElementById("slider").style.display = "flex";
         document.getElementById("solo").style.display = "flex";
         if (numero === 0) {
             text3elem.innerHTML = "<a href='https://animedigitalnetwork.fr/video/one-piece-arc1-east-blue'><h1>Saga1</h1></a>"
         }
-        else if (numero === 1) {
-            text3elem.innerHTML = "<a href='https://animedigitalnetwork.fr/video/one-piece-arc2-alabasta'><h1>Saga2</h1></a>"
-        }
-        else if (numero === 2) {
-            text3elem.innerHTML = "<a href='https://animedigitalnetwork.fr/video/one-piece-arc3-skypiea'><h1>Saga3</h1></a>"
-        }
-        else if (numero === 3) {
-            text3elem.innerHTML = "<a href='https://animedigitalnetwork.fr/video/one-piece-arc4-davy-back-fight'><h1>Saga4</h1></a>"
-        }
-        else if (numero === 4) {
-            text3elem.innerHTML = "<a href='https://animedigitalnetwork.fr/video/one-piece-arc5-water-seven'><h1>Saga5</h1></a>"
-        }
-        else if (numero === 5) {
-            text3elem.innerHTML = "<a href='https://animedigitalnetwork.fr/video/one-piece-arc6-thriller-bark'><h1>Saga6</h1></a>"
-        }
-        else if (numero === 6) {
-            text3elem.innerHTML = "<a href='https://animedigitalnetwork.fr/video/one-piece-guerre-sommet-summit-war'><h1>Saga7</h1></a>"
-        }
-        else if (numero === 7) {
-            text3elem.innerHTML = "<a href='https://animedigitalnetwork.fr/video/one-piece-ile-des-hommes-poissons-saga-8-arc'><h1>Saga8</h1></a>"
-        }
-        else if (numero === 8) {
-            text3elem.innerHTML = "<a href='https://animedigitalnetwork.fr/video/one-piece-arc-whole-cake-island'><h1>Saga14</h1></a>"
-        }
-        else if (numero === 9) {
-            text3elem.innerHTML = "<a href='https://animedigitalnetwork.fr/video/one-piece-arc-reverie'><h1>Saga15</h1></a>"
-        }
-        else if (numero === 10) {
-            text3elem.innerHTML = "<a href='https://animedigitalnetwork.fr/video/one-piece'><h1>Saga16</h1></a>"
-        }
-        else if (numero === 11) {
-            text3elem.innerHTML = "<a href='https://11anim.com/opp-anim'><h1>Autre épisode (site pas légale mais avec tous les épisode) </h1></a>"
-        }
+       
     }
 }
 
