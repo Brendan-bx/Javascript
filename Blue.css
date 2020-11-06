@@ -118,6 +118,14 @@ li{
     
     
 }
+#logo1:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+} 
+#logo2:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+} 
 #movies{
     background-color: rgba(50, 50, 50, 0.75);
     width: 30%;
