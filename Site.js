@@ -11,14 +11,12 @@ imageElem3.addEventListener('click', toggleImagetop3)
 let med1 = "IMG/medal1.png";
 let med2 = "IMG/medal2.png";
 let med3 = "IMG/medal3.png";
-
 let img2 = "IMG/oui.png";
 
 
 function toggleImagetop1(event) {
    console.log(event.target.src.includes("oui"));
    if (event.target.src.includes("oui") === true) {
-
       imageElem1.src = med1
 
    } else {
