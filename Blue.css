@@ -10,7 +10,7 @@
    
 }
 body{
-    background-image: url("Blue_img/Fond.jpg!d");
+    
     background-size: cover;
     background-position-x: initial;
     background-position-y: initial;
@@ -35,13 +35,16 @@ h1{
     
     
 }
-#Perso p {
+#Perso h3 {
     
     font-size: 20px;
-    color:aquamarine;
-    
+    color: white;
+    text-shadow: 3px 3px 1px darkcyan;
     margin: auto;
    
+}
+#Perso p {
+    color: aquamarine;
 }
 h2{
     
@@ -139,6 +142,9 @@ li{
     width: 85%;
     margin: auto;
 }
+#resum h2{
+    margin-bottom: -15px;
+}
 #un{
     background-color: rgba(50, 50, 50, 0.75);
    
@@ -148,13 +154,18 @@ li{
     height: 100px;
     
 }
-
+#zoom1:hover{
+    transform: scale(1.1);
+}
+#zoom2:hover{
+    transform: scale(1.1);
+}
 #zoom1, #zoom2 {
     cursor: pointer;
     text-align: center;
     width: 15%;
     position: absolute;
-    top: 50%;
+    top: 40%;
     font-size: 50px;
 }
 #zoom1{
@@ -162,4 +173,26 @@ li{
 }
 #zoom2{
     right: 0;
+}
+#house{
+    display: flex;
+    float: left;
+    background-color:darkcyan;
+    margin:0 auto;
+   width: 3%;
+
+}
+#house :hover{
+    transform: scale(1.1);
+}
+
+#rin{
+    display: flex;
+    float: right;
+    width: 5%;
+    
+}
+#rin :hover{
+    transform: scale(1.1);
+    cursor: pointer;
 }
