@@ -9,6 +9,7 @@ document.getElementById("franky").style.display = "none";
 document.getElementById("brook").style.display = "none";
 document.getElementById("jinbe").style.display = "none";
 
+
 document.getElementById("flecheg").style.display = "none";
 document.getElementById("fleched").style.display = "none";
 document.getElementById("solo").style.display = "none";
@@ -23,12 +24,15 @@ let text1elem = document.getElementById("text1");
 let text2elem = document.getElementById("text2");
 let text3elem = document.getElementById("text3");
 
+
 description.addEventListener("click", truc)
 synopsis.addEventListener("click", truc)
 personnage.addEventListener("click", truc)
 episode.addEventListener("click", truc)
 
+
 text1elem.innerHTML = "<h2>One Piece</h2>  Type : Shonen <br> Genre : Aventure <br> Thèmes : Surnaturel  <h2>Manga</h2>  Auteur : Eiichirō Oda <br> Éditeur : (ja) Shūeisha (fr) Glénat <br> Prépublication : Weekly Shonen Jump <br> Sortie initiale : 22 juillet 1997 – en cours <br> Volume : 97 <h2>Anime</h2> Réalisateur : Tatsuya Nagamine (depuis 2019) <br> Studio d’animation : Toei Animation <br> 1re diffusion : 20 octobre 1999 – en cours <br> Épisodes : 948 <br><br><br>"
+
 
 flecheg.addEventListener("click", no)
 fleched.addEventListener("click", yes)
