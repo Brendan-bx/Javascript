@@ -17,7 +17,6 @@ let button2 = document.getElementById("Mikasa");
 let button3 = document.getElementById("Armin");
 let button4 = document.getElementById("Livai");
 let button5 = document.getElementById("Erwin");
-let perso = document.getElementById("");
 
 
 
@@ -71,6 +70,7 @@ function description5(event) {
 
     }
 }
+
 
 
     
