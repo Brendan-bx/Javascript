@@ -10,19 +10,26 @@
 
     <meta charset="utf-8">
 
+    <style type="text/css">
+        a:link {
+            text-decoration: none;
+        }
+    </style>
+
+
 </head>
 
 <body>
 
-    <div>
+    <div id="logotop">
 
-        <h1><img src="IMG/Onelogo.png" width="65%" height="65%"></h1>
+        <img src="IMG/Onelogo.png" width="65%" height="65%">
 
     </div>
 
     <br>
 
-    
+
 
     <div id="Fond">
 
@@ -46,32 +53,41 @@
 
                 <p class="p" id="text1"></p>
 
-                <img id="flecheg" src="IMG/flecheg.png" width="7%" height="10%">
-
-                <img id="luffy" src="IMG/luffy.jpeg" width=20% >
-
-                <img id="zoro" src="IMG/zoro.png" width="20%" >
-
-                <img id="usopp" src="IMG/usopp.png" width="20%" >
-
-                <img id="nami" src="IMG/nami.png" width="20%" >
-
-                <img id="sanji" src="IMG/sanji.jpg" width="20%" >
-
-                <img id="chopper" src="IMG/chopper.png" width="20%" >
-
-                <img id="robin" src="IMG/robin.png" width="20%" >
-
-                <img id="franky" src="IMG/franky.png" width="20%" >
-
-                <img id="brook" src="IMG/brook.png" width="20%" >
-
-                <img id="jinbe" src="IMG/jinbe.png" width="20%" >
+                <img class="zoom1" id="flecheg" src="IMG/flecheg.png" width="7%" height="10%">
+                <img id="luffy" src="IMG/luffy.jpeg" width=20%>
+                <img id="zoro" src="IMG/zoro.png" width="20%">
+                <img id="usopp" src="IMG/usopp.png" width="20%">
+                <img id="nami" src="IMG/nami.png" width="20%">
+                <img id="sanji" src="IMG/sanji.jpg" width="20%">
+                <img id="chopper" src="IMG/chopper.png" width="20%">
+                <img id="robin" src="IMG/robin.png" width="20%">
+                <img id="franky" src="IMG/franky.png" width="20%">
+                <img id="brook" src="IMG/brook.png" width="20%">
+                <img id="jinbe" src="IMG/jinbe.png" width="20%">
+                <img class="zoom1" id="fleched" src="IMG/fleched.png" width="7%" height="10%">
 
 
 
 
-                <img id="fleched" src="IMG/fleched.png" width="7%" height="10%">
+                <div id="slider">
+                    <div id="zoom1" onclick="ChangeSlide(-1)">
+                        <img class="zoom1" id="flecheg2" src="IMG/flecheg2.png" width="20%" height="10%">
+
+                    </div>
+
+                    <img src="IMG/saga1.jpg" width=" 85%" height="85%" id="slide">
+
+                    <div id="zoom2" onclick="ChangeSlide(1)">
+                        <img class="zoom1" id="flecheg1" src="IMG/fleched2.png" width="20%" height="10%">
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div id="solo">
+
+                <p class="zoom2" id="text3"></p>
 
             </div>
 
@@ -80,7 +96,19 @@
                 <p id="text2"></p>
 
             </div>
-            
+
+            <div id="lien">
+
+                <hr>
+
+                <a href="SNK.html"><img class="zoom2"src="IMG/SNKlogo.png" width="25%"></a>
+
+                <a href="Blue.html"><img class="zoom2" src="IMG/Blue.png" width="30%"></a>
+
+                <br><br>
+
+            </div>
+
 
         </div>
 
